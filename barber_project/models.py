@@ -10,7 +10,8 @@ class Barber(models.Model):
     ratings = ArrayField(models.IntegerField())
     price = models.CharField(max_length = 100)
     description = models.TextField()
-    images = models.TextField()
+    profile_image = models.TextField(default = 'N/A')
+    haircut_images = ArrayField(models.TextField(default = 'N/A'), default = 'N/A')
 
     def __str__(self):
         return self.name
