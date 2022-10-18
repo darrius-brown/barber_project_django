@@ -11,7 +11,7 @@ class Barber(models.Model):
     price = models.CharField(max_length = 100)
     description = models.TextField()
     profile_image = models.TextField(default = 'N/A')
-    haircut_images = ArrayField(models.TextField(default = 'N/A'), default = 'N/A')
+    haircut_images = ArrayField(models.TextField(default = 'N/A'), default = ['order_status_changed', 'new_signal'])
 
     def __str__(self):
         return self.name
