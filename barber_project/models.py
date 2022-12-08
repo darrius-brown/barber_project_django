@@ -12,6 +12,8 @@ class Barber(models.Model):
     description = models.TextField()
     profile_image = models.TextField(default = 'N/A')
     haircut_images = ArrayField(models.TextField(default = 'N/A'), default = ['order_status_changed', 'new_signal'])
+    website = models.TextField(default = 'N/A')
+    contact = models.TextField(default = 'N/A')
 
     def __str__(self):
         return self.name

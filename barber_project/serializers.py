@@ -36,7 +36,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 class BarberSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Barber
-        fields = ('name', 'state', 'city', 'ratings', 'price', 'description', 'profile_image', 'haircut_images')
+        fields = ('name', 'state', 'city', 'ratings', 'price', 'description', 'profile_image', 'haircut_images', 'contact', 'website')
     
 class CommentSerializer(serializers.HyperlinkedModelSerializer):
     author = serializers.ReadOnlyField(
