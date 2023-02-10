@@ -10,9 +10,9 @@ There is one route that is accessed upon opening the app which allows anyone to 
 
 ## Future Development
 -----------
-Continue to add more barbers to my database.
-Implement comments.
-Implement ratings.
-Add a way to sort barbers by rating, location, and also have paid "barbers of the week/month" browsing option
-Add a feed to show recently rated barbers or recently added comments 
+* Continue to add more barbers to my database.
+* Implement comments.
+* Implement ratings.
+* Add a way to sort barbers by rating, location, and also have paid "barbers of the week/month" browsing option
+* Add a feed to show recently rated barbers or recently added comments 
 
